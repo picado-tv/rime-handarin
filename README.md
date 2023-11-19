@@ -28,7 +28,7 @@
 * 從中文到韓式漢字音變換器：[製作中]()
 
 #### 2-Set Korean Keyboard Layout
-<img src="./keyboard-2set.png" width="100px" title="2-Set Korean Keyboard Layout"/>
+<img src="./keyboard-2set.png" width="1000px" title="2-Set Korean Keyboard Layout"/>
 
 ## 功勞　공로　Credits
 
