@@ -7,7 +7,9 @@
 [Rime](https://rime.im) 拼音輸入方案
 
 ## 用韓字 寫官話一下！
-> GIF
+➡️ [Demo](https://my-rime.vercel.app/?plum=picado-tv/rime-handarin:handarin;rime/rime-luna-pinyin:luna_pinyin;rime/rime-stroke:stroke) ⬅️
+![handarin-demo](https://github.com/picado-tv/rime-handarin/assets/81575252/c27912f2-bf4c-4057-ae36-859b971d7dac)
+
 
 ## 安裝　안장　Install
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install picado-tv/rime-handarin`
