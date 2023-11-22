@@ -7,8 +7,8 @@
 [Rime](https://rime.im) 拼音輸入方案
 
 ## 用韓字 寫官話一下！
-➡️ [Demo](https://my-rime.vercel.app/?plum=picado-tv/rime-handarin:handarin;rime/rime-luna-pinyin:luna_pinyin;rime/rime-stroke:stroke) ⬅️
-![handarin-demo](https://github.com/picado-tv/rime-handarin/assets/81575252/c27912f2-bf4c-4057-ae36-859b971d7dac)
+➡️ [Demo](https://my-rime-handarin.vercel.app/) ⬅️
+![handarin-demo-image](https://github.com/picado-tv/rime-handarin/assets/81575252/c27912f2-bf4c-4057-ae36-859b971d7dac)
 
 
 ## 安裝　안장　Install
