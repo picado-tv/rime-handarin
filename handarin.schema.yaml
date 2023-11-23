@@ -7,7 +7,7 @@
 schema:
   schema_id: handarin    # 이 ID가 파일명의 .schema.yaml 의 앞부분과 상동하도록 주의
   name: 韓官話        # (방안메뉴) 안에 표시될 것
-  version: "1.0.231120"        # 문자열에 음수아닌 정수나 소수. 예) "1.2.3"
+  version: "1.0.231123"        # 문자열에 음수아닌 정수나 소수. 예) "1.2.3"
   author:
     - '@rockpicado'
 
@@ -16,6 +16,7 @@ schema:
 
   dependencies:
     - luna_pinyin
+    - stroke
 
 switches:
   - name: ascii_mode
@@ -44,6 +45,7 @@ engine:
     - ascii_segmentor
     - matcher
     - affix_segmentor@luna_pinyin
+    - affix_segmentor@stroke
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -52,6 +54,7 @@ engine:
     - punct_translator
     - script_translator
     - script_translator@luna_pinyin
+    - script_translator@stroke
   filters:
     - simplifier
     - simplifier@emoji_suggestion
@@ -83,7 +86,7 @@ translator:
 luna_pinyin:
   tag: luna_pinyin
   dictionary: luna_pinyin
-  prefix: "`"
+  prefix: "~"
   suffix: ";"
   tips: 〔普通話〕
   preedit_format:
@@ -91,8 +94,18 @@ luna_pinyin:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
+stroke:
+  tag: stroke
+  dictionary: stroke
+  enable_completion: true
+  preedit_format:
+    - "xlit/hspnz/一丨丿丶乙/"
+  prefix: "`"
+  suffix: "'"
+  tips: 〔筆畫〕
+
 handarin_reverse_lookup:
-  tags: [ luna_pinyin ]
+  tags: [ luna_pinyin, stroke ]
   overwrite_comment: true
   dictionary: handarin
   comment_format:
@@ -124,4 +137,5 @@ recognizer:
   patterns:
     uppercase: ""
     punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "^`[a-z']*;?$"
+    stroke: "^`[hspnz]*;?$"
+    luna_pinyin: "^~[a-z']*;?$"
