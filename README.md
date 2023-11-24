@@ -27,7 +27,7 @@
 ## 用法　용법　Usages
 
 * 韓式漢字音閱覽：[Naver Hanja Dict](https://hanja.dict.naver.com/)
-* 從中文到韓式漢字音變換器：[製作中]()
+* 從中文到韓式漢字音變換器：[Mandarin to Handarin Converter](https://colab.research.google.com/drive/13SFMjKA2ZUqeweST2778SA1a1-770hof?usp=sharing)
 
 #### 2-Set Korean Keyboard Layout
 <img src="./keyboard-2set.png" width="1000px" title="2-Set Korean Keyboard Layout"/>
