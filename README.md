@@ -7,7 +7,7 @@
 [Rime](https://rime.im) 拼音輸入方案
 
 ## 用韓字 寫官話一下！
-➡️ [Example Page](https://handarin-courses.vercel.app/%EC%9D%8C%EB%A3%8C-%E5%96%9D%EF%BC%8C%E6%B0%B4%EF%BC%8C%E8%8C%B6%EF%BC%8C%E6%9E%9C%E6%B1%81%EF%BC%8C%E5%92%96%E5%95%A1%EF%BC%8C%E5%95%A4%E9%85%92%EF%BC%8C%E8%AF%B7%E9%97%AE) ⬅️
+➡️ [Example Page](https://handarin-courses.vercel.app/learn-13-drink-%EC%9D%8C%EB%A3%8C-%E5%96%9D%EF%BC%8C%E6%B0%B4%EF%BC%8C%E8%8C%B6%EF%BC%8C%E6%9E%9C%E6%B1%81%EF%BC%8C%E5%92%96%E5%95%A1%EF%BC%8C%E5%95%A4%E9%85%92%EF%BC%8C%E8%AF%B7%E9%97%AE) ⬅️
 ![handarin-demo-image](https://github.com/picado-tv/rime-handarin/assets/81575252/c27912f2-bf4c-4057-ae36-859b971d7dac)
 
 
