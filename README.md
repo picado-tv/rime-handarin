@@ -29,9 +29,16 @@
 * 韓式漢字音閱覽：[Naver Hanja Dict](https://hanja.dict.naver.com/)
 * 從中文到韓式漢字音變換器：[Mandarin to Handarin Converter](https://colab.research.google.com/drive/13SFMjKA2ZUqeweST2778SA1a1-770hof?usp=sharing)
 
-#### 2-Set Korean Keyboard Layout
+#### Handarin Keyboard Layout
 <img src="./keyboard-2set.png" width="1000px" title="2-Set Korean Keyboard Layout"/>
+
+* 綠色：韓文的初聲和終聲的。相應於英文的「Consonant」的。
+* 紅色：韓文的中聲。相應於英文的「Vowel」的。
+* 藍色：韓官話式五筆畫。「丿」和「Ｊ」相似，「乙」和「Ｎ」相似。「ｌ」豎立，「ｍ」橫最長，「Ｋ」有「↘️方」筆畫。不管怎樣，它們在很附近。
+
+## 例　예　Examples
+#### 你好：`slgh` 或者 `JLJNLJK NJMNLM`
 
 ## 功勞　공로　Credits
 
-* The dictionary is derived work from the one from [地球拼音](https://github.com/rime/rime-terra-pinyin)
+* The dictionary is derived work from the one from [地球拼音](https://github.com/rime/rime-terra-pinyin) + [五筆畫](https://github.com/rime/rime-stroke)
