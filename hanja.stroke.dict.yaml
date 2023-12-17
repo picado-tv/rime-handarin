@@ -1,8 +1,8 @@
-# Rime dictionary
+# rime dictionary
 # encoding: utf-8
 
 ---
-name: handarin.stroke
+name: hanja.stroke
 version: "1"
 sort: by_weight
 ...

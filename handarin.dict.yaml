@@ -3,11 +3,11 @@
 
 ---
 name: handarin
-version: "3.1"
+version: "3.1.1"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-  - handarin.stroke
+  - hanja.stroke
 ...
 〇	fud	
 㐀	rn	

@@ -62,6 +62,7 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaQWERTOPNMJKL  # 
   delimiter: " '"  # 격음부호로 「'」；최초의 공백은 자동삽입된 음절구분용
   algebra:
+    - xform/^([JKLNM ]+)$/\L$1\E/
     - derive/^s([iuyblP])/d$1/
     - derive/^f([iuyblP])/d$1/
     - derive/^f(k|h|n|m|o|hl)/s$1/
